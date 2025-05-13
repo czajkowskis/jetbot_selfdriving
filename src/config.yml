@@ -1,0 +1,9 @@
+model: MobileNetV3S.onnx
+  path: '../models/MobileNetV3S.onnx'
+
+robot:
+  max_speed: 0.22
+  max_steering: 0.5
+  differential:
+    left: 0.0
+    right: 0.0
